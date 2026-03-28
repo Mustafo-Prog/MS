@@ -1,0 +1,112 @@
+@media (max-width: 1200px) {
+    .nav__under-right{
+        gap: 30px;
+    }
+}
+@media (max-width: 1150px) {
+    .about__us-hero{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        gap: 67px;
+    }
+}
+@media (max-width: 1075px) {
+    .nav__under-right{
+        flex-direction: column;
+        gap: 70px;
+        position: fixed;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: -100%;
+        background: rgba(0, 0, 0, 0.615);
+        backdrop-filter: blur(10px);
+        transition: .3s;
+        z-index: 788;
+    }
+    .nav__under-right a{
+        color: white;
+        font-size: 19px;
+    }
+    .open{
+        display: block;
+        font-size: 60px;
+    }
+    .nav__under{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .nav__under-right-p::after{
+        color: white;
+        background: white;
+    }
+    .nav__under-right-p:hover.nav__under-right-p::after{
+        color: #E05100;
+        background: #E05100;
+    }
+    .nav__under-right-p:hover{
+        color: #E05100;
+    }
+    .close{
+        display: block;
+        font-size: 100px;
+        position: absolute;
+        top: 60px;
+        right: 90px;
+    }
+}
+@media (max-width: 1000px) {
+    .footer__hero{
+        padding: 0;
+    }
+}
+@media (max-width: 950px) {
+    .produce__main{
+        flex-direction: column;
+        gap: 50px;
+    }
+}
+@media (max-width: 800px) {
+    .footer__hero{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 60px;
+    }
+    .footer__right{
+        flex-direction: column;
+    }
+}
+@media (max-width: 620px){
+    .close{
+        display: block;
+        font-size: 70px;
+        position: absolute;
+        top: 60px;
+        right: 40px;
+    }
+}
+@media (max-width: 500px) {
+    .peak__card{
+        flex-direction: column;
+    }
+    .peak__card-right{
+        width: 100%;
+    }
+    .peak__card{
+        padding: 0;
+    }
+    .peak__card-left{
+        padding: 25px;
+    }
+}
+@media (max-width: 400px) {
+    .header_content-hero-main h2{
+        font-size: 30px;
+    }
+}
