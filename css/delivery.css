@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+h1,h2,h3,h4,h5,h6{padding: 0px !important;}*, *::before, *::after{box-sizing: border-box;margin: 0;padding: 0;}html,body{scroll-behavior: smooth;height: 100%;transition: 0.3s ease-in-out;position: relative;}body{font-family: 'Montserrat';transition: 0.3s ease-in-out;}a{text-decoration: none;}button{border: none;background: none;cursor: pointer;}img{max-width: 100%;height: auto;object-fit: cover;}.container{max-width: 1400px;width: 100%;padding: 0 40px;margin: 0 auto;height: 100%;}
+.main__head{
+    display: flex;
+}
+.main__head-left{
+    background: #E05100;
+    padding-top: 85px;
+    padding-bottom: 68px;
+    padding-left: 99px;
+    padding-right: 99px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+}
+.main__head-left h2{
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.main__head-left p{
+    font-weight: 400;
+    font-size: 12px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.main__head-right{
+    width: 100%;
+    height: 100%;
+    max-height: 300px;
+}
+.main__head-right img{
+    width: 100%;
+    height: 100%;
+}
+.main__foot{
+    display: flex;
+}
+.main__foot-left{
+    width: 100%;
+    height: 100%;
+}
+.main__foot-right{
+    background: #404040;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 62px 98px;
+    width: 100%;
+    height: 100%;
+}
+.main__foot-right-head h2{
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+.main__foot-right-main p{
+    font-weight: 400;
+    font-size: 12px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.white-color{
+    color: rgb(255, 6, 6);
+}
+.main__foot-right-foot p{
+    font-weight: 700;
+    font-size: 12px;
+    text-align: center;
+    color: #FFFFFF;
+}
+@media (max-width: 1300px) {
+    .main__head{
+        flex-wrap: wrap;
+    }
+    .main__foot{
+        flex-wrap: wrap;
+    }
+    .main__foot img{
+        width: 100%;
+        height: 100%;
+    }
+}

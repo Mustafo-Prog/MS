@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+h1,h2,h3,h4,h5,h6{padding: 0px !important;}*, *::before, *::after{box-sizing: border-box;margin: 0;padding: 0;}html,body{scroll-behavior: smooth;height: 100%;transition: 0.3s ease-in-out;position: relative;}body{font-family: 'Montserrat';transition: 0.3s ease-in-out;}a{text-decoration: none;}button{border: none;background: none;cursor: pointer;}img{max-width: 100%;height: auto;object-fit: cover;}.container{max-width: 1400px;width: 100%;padding: 0 40px;margin: 0 auto;height: 100%;}
+.catalog{
+    display: flex;
+    flex-direction: column;
+    padding: 120px 0;
+    background: #292f36;
+}
+.catalog__hero{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+.catalog__head{
+    margin: 0 auto;
+    text-align: center;
+}
+.catalog__head h2{
+    color: white;
+}
+.catalog_main{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.catalog_main-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 44px;
+    background: #FFFFFF;
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    padding: 29px 35px;
+    margin: 0 auto;
+}
+.catalog_main-card img{
+    max-width: 178px;
+}
+.catalog_main-card h2{
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+    color: #000000;
+}
+.catalog__foot{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.catalog__main-more{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 70px;
+    flex-wrap: wrap;
+    overflow: hidden;
+    transition: .3s ease-in-out;
+}
+.catalog__main-more-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+    margin: 0 auto;
+    background: #FFFFFF;
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    padding: 40px 70px;
+    overflow: hidden;
+    transition: .3s ease-in-out;
+}
+.catalog__main-more-card-head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.catalog__main-more-card-head img{
+    max-width: 100px;
+    margin: 0 auto;
+}
+.catalog__main-more-card-main p{
+    font-weight: 700;
+    font-size: 15px;
+    color: #292f36;
+}
